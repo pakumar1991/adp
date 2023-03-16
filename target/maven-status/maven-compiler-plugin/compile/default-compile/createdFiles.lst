@@ -1,0 +1,5 @@
+com/exercise/MainApplication.class
+com/exercise/model/WordCount.class
+com/exercise/service/CountWordsI.class
+com/exercise/service/CountWordsSvc.class
+com/exercise/util/WordCountUtility.class

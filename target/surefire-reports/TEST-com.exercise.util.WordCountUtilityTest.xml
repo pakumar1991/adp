@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.exercise.util.WordCountUtilityTest" time="0.113" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pawankumar/Documents/jan2023/adp/target/test-classes:/Users/pawankumar/Documents/jan2023/adp/target/classes:/Users/pawankumar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/pawankumar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pawankumar/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/pawankumar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/pawankumar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/pawankumar/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pawankumar/Documents/jan2023/adp/target/surefire/surefirebooter-20230316083305993_3.jar /Users/pawankumar/Documents/jan2023/adp/target/surefire 2023-03-16T08-33-05_386-jvmRun1 surefire-20230316083305993_1tmp surefire_0-20230316083305993_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/pawankumar/Documents/jan2023/adp/target/test-classes:/Users/pawankumar/Documents/jan2023/adp/target/classes:/Users/pawankumar/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/pawankumar/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/pawankumar/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/pawankumar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/pawankumar/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/pawankumar/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pawankumar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pawankumar/Documents/jan2023/adp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pawankumar/Documents/jan2023/adp/target/surefire/surefirebooter-20230316083305993_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="19.0.1"/>
+    <property name="user.name" value="pawankumar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.6.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/pawankumar/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/wn/fq8qrbbx38x4n8g25xdz2mh00000gn/T/"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="/Users/pawankumar/Documents/jan2023/adp"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pawankumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="19.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="validateArguments_WhenTheFirstArgumentIsNotFilePath_ReturnEmptyArgumentsMap" classname="com.exercise.util.WordCountUtilityTest" time="0.05">
+    <system-out><![CDATA[******* java -jar COMMAND HELP/GUIDE ********* 
+ java -jar adp-1.0.jar -filepath <absolute path-name> -order <asc>
+ 
+<path-name>: It should be full file path from where the words will be read and counted.
+<asc> : The default ordering is descending, when this argument is passed, the result will be printed in ascending order. Allowed values are asc and dsc.Ignore the last two arguments if default ordering is preferred
+NOTE: if there are any permission errors while running the adp jar, try navigating to folder where jar is located and then run the command. 
+]]></system-out>
+    <system-err><![CDATA[ERROR : FilePath not passed
+]]></system-err>
+  </testcase>
+  <testcase name="validateArguments_WhenTooManyArgumentsArePassed_ReturnEmptyArgumentsMap" classname="com.exercise.util.WordCountUtilityTest" time="0.004">
+    <system-out><![CDATA[******* java -jar COMMAND HELP/GUIDE ********* 
+ java -jar adp-1.0.jar -filepath <absolute path-name> -order <asc>
+ 
+<path-name>: It should be full file path from where the words will be read and counted.
+<asc> : The default ordering is descending, when this argument is passed, the result will be printed in ascending order. Allowed values are asc and dsc.Ignore the last two arguments if default ordering is preferred
+NOTE: if there are any permission errors while running the adp jar, try navigating to folder where jar is located and then run the command. 
+]]></system-out>
+    <system-err><![CDATA[ERROR: No argument or too many arguments passed
+]]></system-err>
+  </testcase>
+  <testcase name="isAscendingOrder_WhenArgumentIsPassedAsDSC_ReturnFalse" classname="com.exercise.util.WordCountUtilityTest" time="0.005"/>
+  <testcase name="validateFilePath_WhenPassedFileDoesNotExist_ThrowIOException" classname="com.exercise.util.WordCountUtilityTest" time="0.005"/>
+  <testcase name="validateFilePath_WhenPassedFileTypeIsNotSupported_ThrowIOException" classname="com.exercise.util.WordCountUtilityTest" time="0.002"/>
+  <testcase name="isAscendingOrder_WhenArgumentIsPassedAsASC_ReturnTrue" classname="com.exercise.util.WordCountUtilityTest" time="0.001"/>
+  <testcase name="validateArguments_WhenNoArgumentIsPassed_ReturnEmptyArgumentsMap" classname="com.exercise.util.WordCountUtilityTest" time="0.001">
+    <system-out><![CDATA[******* java -jar COMMAND HELP/GUIDE ********* 
+ java -jar adp-1.0.jar -filepath <absolute path-name> -order <asc>
+ 
+<path-name>: It should be full file path from where the words will be read and counted.
+<asc> : The default ordering is descending, when this argument is passed, the result will be printed in ascending order. Allowed values are asc and dsc.Ignore the last two arguments if default ordering is preferred
+NOTE: if there are any permission errors while running the adp jar, try navigating to folder where jar is located and then run the command. 
+]]></system-out>
+    <system-err><![CDATA[ERROR: No argument or too many arguments passed
+]]></system-err>
+  </testcase>
+  <testcase name="validateArguments_WhenAllTheFOurArgumentsArePassed_ReturnArgumentsMap" classname="com.exercise.util.WordCountUtilityTest" time="0.006"/>
+</testsuite>

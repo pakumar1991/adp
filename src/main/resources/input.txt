@@ -1,0 +1,3 @@
+london paris delhi London Paris Delhi
+LONDON PARIS DELHI LonDON ParIS DelHI
+london. pari's delhi, London     Paris' De'lhi Paris Paris De'lhi
