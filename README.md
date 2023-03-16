@@ -38,8 +38,9 @@ here, adpExercise.jar -> This is the executable jar generated from mvn build.
 Note : -filepath and <path-name> are mandatory arguments and in the same sequence.
         -order and <asc> are the optional arguments, if any of it is not passed then the default sorting will be used ie DESCENDING.
 
-Example commands : java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt
-                   java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt -order asc
-                   java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt -order dsc
+Example commands : 
+- java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt
+- java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt -order asc
+- java -jar adp-1.0.jar -filepath /Users/pawankumar/adp/src/main/resources/input.txt -order dsc
 
 
